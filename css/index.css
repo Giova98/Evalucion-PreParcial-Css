@@ -1,0 +1,102 @@
+*{
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    background-color: rgb(60, 66, 95);
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.profile-picture {
+    /* Redondear la imagen y darle un tamaño maximo de 200px */
+    align-content: center;
+    border-radius: 100px;
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.left-column{
+    background-color: rgb(178, 177, 177);
+    padding: 20px 20px 20px 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.padre {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+}
+
+.datos-personales {
+    background-color: rgb(1, 116, 101);
+    display: flex;
+    padding: 8px;
+    border-radius: 25px;
+    margin-bottom: 2px;
+    grid-column: span 2;
+}
+
+.datos-personales .data-person{
+    background-color: rgb(1, 116, 101);
+    color: white;
+}
+
+.Columna-izquierda {
+    grid-column: 1 / 2;
+    grid-row: span 6;
+    background-color: rgb(178, 177, 177);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.table-bord {
+    background-color: rgb(211, 205, 205);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    grid-column: 2 / 3;
+}
